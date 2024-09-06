@@ -1,0 +1,48 @@
+.lexoPageWrapper {
+  height: 100%;
+}
+
+.lexoPage {
+  display: flex;
+
+  height: calc(100% - 56px - 10px);
+
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+
+  .one {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    max-height: calc(100% - 56px - 10px);
+    align-items: center;
+
+    .panelWrapper {
+      cursor: pointer;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .panel {
+        border-radius: 2px;
+        border: 2px solid hsl(240 5.9% 90%);
+        padding: 30px;
+        text-align: center;
+      }
+    }
+  }
+
+  .two {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    align-items: center;
+  }
+}

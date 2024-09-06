@@ -1,0 +1,12 @@
+@import "src/assets/scss/breakpoints";
+@import "src/assets/scss/variables";
+
+.pageLkSubTitle {
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  color: $forth-color;
+  white-space: pre-line;
+  word-break: break-all;
+  font-size: 1.25rem;
+  line-height: 140.4%;
+}

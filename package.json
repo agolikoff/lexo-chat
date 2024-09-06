@@ -1,0 +1,93 @@
+{
+  "name": "lexo-cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "5.4.0",
+    "@datalayer/icons-react": "^0.3.0",
+    "@datalayer/jupyter-react": "^0.12.0",
+    "@datalayer/primer-addons": "^0.3.0",
+    "@nlux/highlighter": "^2",
+    "@nlux/langchain-react": "^2",
+    "@nlux/react": "^2",
+    "@nlux/themes": "^2",
+    "@primer/react": "^36.6.0",
+    "@react-oauth/google": "^0.12.1",
+    "@reduxjs/toolkit": "^2.2.2",
+    "@types/node": "18.11.9",
+    "antd": "5.10.1",
+    "classnames": "2.3.2",
+    "craco-less": "^3.0.1",
+    "dayjs": "1.11.10",
+    "jupyterlab-plotly": "^5.17.0",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "6.17.0",
+    "react-scripts": "5.0.1",
+    "reselect": "^5.1.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@swc/core": "1.3.93",
+    "@swc/jest": "0.2.29",
+    "@testing-library/jest-dom": "6.1.4",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.5.1",
+    "@types/jest": "29.5.6",
+    "@types/react": "18.2.56",
+    "@types/react-dom": "18.2.19",
+    "@types/testing-library__jest-dom": "6.0.0",
+    "@types/testing-library__react": "10.2.0",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "6.8.0",
+    "@typescript-eslint/parser": "6.8.0",
+    "eslint": "8.52.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-jest-dom": "5.1.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.3",
+    "eslint-plugin-testing-library": "6.1.0",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "raw-loader": "^4.0.2",
+    "stream": "0.0.2",
+    "stream-browserify": "2.0.2",
+    "typescript": "^4.9.5"
+  },
+  "resolutions": {
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+@import "src/assets/scss/variables";
+@import "src/assets/scss/breakpoints";
+
+.pageLkTitle {
+  //color: $forth-color;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 140.4%;
+  margin-top: 0;
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}

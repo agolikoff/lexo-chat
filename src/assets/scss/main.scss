@@ -1,0 +1,36 @@
+@import "variables";
+@import "fonts";
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  font-weight: normal;
+  font-family: $font-family;
+  font-size: 16px;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul > li {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
